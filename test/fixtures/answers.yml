@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  body: MyText
+  value: 9.99
+  question_id: 
+
+two:
+  body: MyText
+  value: 9.99
+  question_id: 
