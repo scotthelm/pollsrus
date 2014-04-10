@@ -1,4 +1,6 @@
 Pollsrus::Application.routes.draw do
+  resources :polls
+
   resources :question_types
 
   resources :answers
