@@ -1,4 +1,6 @@
 Pollsrus::Application.routes.draw do
+  resources :question_types
+
   resources :answers
 
   devise_for :users, controllers: {registrations: "users/registrations", sessions: "users/sessions", passwords: "users/passwords"}, skip: [:sessions, :registrations]
